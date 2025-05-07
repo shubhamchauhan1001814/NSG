@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB Atlas (replace with your MongoDB Atlas connection string)
-const mongoURI = 'mongodb+srv://<your-username>:<your-password>@cluster0.mongodb.net/loginDB?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://admin:Shubham111@cluster0.mongodb.net/loginDB?retryWrites=true&w=majority';
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
