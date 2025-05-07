@@ -1,0 +1,15 @@
+{
+    "name": "login-website",
+    "version": "1.0.0",
+    "description": "A simple login website with MongoDB integration",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^6.0.0",
+        "cors": "^2.8.5",
+        "bcryptjs": "^2.4.3"
+    }
+}
